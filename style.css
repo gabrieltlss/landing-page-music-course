@@ -36,7 +36,7 @@ header {
 }
 
 .menu-icon {
-  width: 50px;
+  width: 70px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -61,6 +61,7 @@ header {
 .dropdown-closed {
   display: none;
 }
+
 .dropdown-open {
   display: block;
 }
@@ -180,9 +181,11 @@ main {
   border-radius: 50%;
   text-align: center;
 }
+
 .card-title {
   text-align: center;
 }
+
 .card-text {
   text-align: justify;
 }
@@ -223,6 +226,7 @@ main {
 .course-content-wrap {
   max-width: 450px;
 }
+
 .course-title {
   text-align: center;
   margin: 15px 0px;
@@ -317,10 +321,12 @@ footer {
   .courses-section-title {
     margin: 50px 0px;
   }
+
   .courses {
     height: 400px;
     display: flex;
   }
+
   .courses:nth-child(odd) {
     display: flex;
     flex-direction: row-reverse;
